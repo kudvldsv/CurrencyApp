@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="Current exchange value"
+            android:text="@string/title_exchange"
+            android:layout_marginBottom="48dp"/>
+
+        <TextView
+            android:id="@+id/usdValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="1 USD = 76.08 RUB"
+            android:text="@string/usd_format"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/eurValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="1 EUR = 91.02 RUB"
+            android:text="@string/eur_format"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:id="@+id/btcValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            tools:text="1 BTC = 1 374 045,80 RUB"
+            android:text="@string/btc_format"
+            android:layout_marginBottom="24dp"/>
+
+    </LinearLayout>
+

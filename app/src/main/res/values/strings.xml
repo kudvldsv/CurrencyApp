@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CurrencyApp</string>
+
+    <string name="title_exchange">Current exchange value</string>
+
+    <string name="usd_format">1 USD = %.2f RUB</string>
+    <string name="eur_format">1 EUR = %.2f RUB</string>
+    <string name="btc_format">1 BTC = %.2f RUB</string>
+</resources>
